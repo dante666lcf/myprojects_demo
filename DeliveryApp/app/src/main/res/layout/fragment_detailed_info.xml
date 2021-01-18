@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollbars="none"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:layout_constraintBottom_toTopOf="@id/detailedInfoBottomLinearLayout">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="64dp">
+
+            <ImageView
+                    android:id="@+id/detailedInfoImageViewLogo"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_height="240dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/test_image_logo"/>
+
+            <TextView
+                    app:layout_constraintTop_toBottomOf="@+id/detailedInfoImageViewLogo"
+                    android:layout_width="match_parent"
+                    android:id="@+id/detailedInfoTextViewTitle"
+                    android:textSize="22sp"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    tools:text="Зеленый дракон"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/detailedInfoDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_description"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorAccent"
+                    android:background="@color/colorPrimary"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/detailedInfoTextViewTitle"/>
+
+            <TextView
+                    app:layout_constraintTop_toBottomOf="@+id/detailedInfoDescription"
+                    android:layout_width="match_parent"
+                    android:id="@+id/detailedInfoTextViewDescription"
+                    android:textSize="18sp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:textColor="@color/colorPrimary"
+                    tools:text="Филе лосося, `Спайси` соус , сливочный сыр ,копченый кальмар и оурец в авокадо"
+                    android:ellipsize="end"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="32dp"
+                    android:paddingEnd="16dp"/>
+
+            <TextView
+                    android:id="@+id/detailedInfoPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_price"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorAccent"
+                    android:background="@color/colorPrimary"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/detailedInfoTextViewDescription"/>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/detailedInfoCardViewPrice"
+                    app:layout_constraintTop_toBottomOf="@+id/detailedInfoPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintRight_toLeftOf="@+id/detailedInfoCardViewCounter"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="16dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_marginStart="16dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/detailedInfoTextViewPrice"
+                        android:textSize="32sp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:maxLines="1"
+                        android:textColor="@color/colorAccentGreen"
+                        tools:text="666 тг"
+                        android:text="@string/price_with_kzt"
+                        android:gravity="center"
+                        android:maxLength="10"
+                        android:ellipsize="end"
+                        android:layout_height="wrap_content"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/detailedInfoCardViewCounter"
+                    app:layout_constraintTop_toBottomOf="@+id/detailedInfoPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintLeft_toRightOf="@+id/detailedInfoCardViewPrice"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_marginStart="16dp">
+
+                <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/detailedInfoImageViewMinus"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:srcCompat="@drawable/ic_arrow_left"/>
+
+                    <TextView
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/detailedInfoImageViewMinus"
+                            app:layout_constraintRight_toLeftOf="@+id/detailedInfoImageViewPlus"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/detailedInfoTextViewCounter"
+                            android:textSize="32sp"
+                            android:padding="16dp"
+                            android:textColor="@color/colorAccent"
+                            android:text="0"
+                            android:maxLength="3"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:layout_height="wrap_content"/>
+
+                    <ImageView
+                            android:id="@+id/detailedInfoImageViewPlus"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginRight="16dp"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:srcCompat="@drawable/ic_arrow_right"
+                            android:layout_marginEnd="16dp"/>
+
+                </android.support.constraint.ConstraintLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+            android:id="@+id/detailedInfoBottomLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+                android:id="@+id/detailedInfoButtonAddToFavorites"
+                android:layout_width="match_parent"
+                android:background="@color/colorAccentYellow"
+                android:text="@string/text_add_to_favorites"
+                android:padding="24dp"
+                android:lines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/detailedInfoButtonAddToBasket"
+                android:layout_width="match_parent"
+                android:background="@color/colorAccentGreen"
+                android:text="@string/text_add_to_basket"
+                android:padding="24dp"
+                android:lines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_bar_main_tab"
+        android:icon="@drawable/ic_home"
+        android:title="@string/main_tab" />
+
+    <item
+        android:id="@+id/bottom_bar_web_site_karlygash"
+        android:icon="@drawable/icon_karlygash"
+        android:title="@string/web_site_e_karlygash_kz" />
+
+    <item
+        android:id="@+id/bottom_bar_web_site_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/web_site_profile" />
+
+</menu>

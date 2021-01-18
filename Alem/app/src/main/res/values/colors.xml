@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCFCFC</color>
+    <color name="colorPrimaryDark">#B5171717</color>
+    <color name="colorAccent">#181818</color>
+    <color name="colorAccentTransparent">#B71E88E5</color>
+
+    <!--<color name="colorBlack">#1a1a1a</color>-->
+    <!--<color name="colorIconAppBottomBar">#FCFCFC</color>-->
+    <!--<color name="colorWhite">#FCFCFC</color>-->
+    <!--<color name="colorBackgroundLight">#E0E0E0</color>-->
+    <!--<color name="colorWhiteHint">#CECECE</color>-->
+    <!--<color name="colorDivider">#79ACAAAA</color>-->
+    <!--<color name="colorLoginRoundedForm">#B3000000</color>-->
+    <!--<color name="colorBlackLight">#2B2B2B</color>-->
+    <!--<color name="colorAccentGreen">#CC669900</color>-->
+
+    <!--new colors for new ui-->
+    <color name="colorBackgroundDark">#15348C</color>
+    <color name="colorBackgroundLight">#2151D9</color>
+    <color name="colorBackgroundLightMedium">#426EEC</color>
+    <color name="colorYellowDark">#FFAF00</color>
+    <color name="colorYellowDark2">#FF9600</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+</resources>

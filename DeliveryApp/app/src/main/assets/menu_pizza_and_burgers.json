@@ -1,0 +1,40 @@
+{
+  "eda_list": [
+    {
+      "title": "Четыре сыра",
+      "description": "моцарелла, голубой сыр, пармезан, эдам, базилик, соус«Неаполитанский» - 30 см",
+      "url_img": "http://yakitoriya.kz/i/order_b_1375.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2400,
+      "type_in_menu": "Пицца и Бургеры"
+    },
+    {
+      "title": "Маргарита",
+      "description": "моцарелла, соус «Неаполитанский» , орегано -30 см",
+      "url_img": "http://yakitoriya.kz/i/order_b_1373.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2000,
+      "type_in_menu": "Пицца и Бургеры"
+    },
+    {
+      "title": "Кусто бургер",
+      "description": "запеченное филе лосося \"Терияки\", сливочный сыр, \"Спайси\"соус, свежие огурцы, гуакомоле из авокадо, листья шпината, в булочке бриошь",
+      "url_img": "http://yakitoriya.kz/i/order_b_1882.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2600,
+      "type_in_menu": "Пицца и Бургеры"
+    },
+    {
+      "title": "Куросава бургер",
+      "description": "мясо цыпленка в хрустящей островатой панировке, запеченное под сыром моцарелла, салат романо, свежие томаты, в булочке бриошь",
+      "url_img": "http://yakitoriya.kz/i/order_b_1883.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2200,
+      "type_in_menu": "Пицца и Бургеры"
+    }
+  ]
+}

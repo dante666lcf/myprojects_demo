@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/menuRazdelBackToMenu"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryLight"
+            android:text="@string/text_back_to_menu"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:id="@+id/menuRazdelBottomLine"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorGrayLight"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewMenuRazdel"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KARLYGASH</string>
+
+    <string name="common_error_network">Интернет соединение отключено</string>
+    <string name="common_error_backend">Сервис временно недоступен</string>
+    <string name="login_enter_text">Войти</string>
+    <string name="login_enter_your_iin_for_login">Для входа в систему укажите свой ИИН</string>
+    <string name="login_et_enter_iin">Укажите ИИН</string>
+    <string name="login_enter_your_sms_code_for_login">Что бы продолжить необходимо указать код из SMS</string>
+    <string name="login_et_enter_smscode">Укажите код из SMS</string>
+    <string name="login_def_info_sms_code">SMS придёт на номер указанный при регистрации в личном кабинете на Indigo24</string>
+    <string name="web_site_e_karlygash_kz">e-karlygash.kz</string>
+    <string name="web_site_profile">Личный кабинет</string>
+    <string name="main_tab">Главная</string>
+    <string name="children_text_bottom_info">Нажмите на фото и отсканируйте штрих код, чтобы подтвердить посещение детской группы</string>
+    <string name="qr_required">Необходимо разрешение на использование камеры</string>
+    <string name="qr_hint">Наведите камеру на QR код</string>
+    <string name="qr_hint_error">Неподходящий QR код</string>
+    <string name="scan_qr_info_bottom">Наведите камеру на штрих код и система распознает его автоматически</string>
+    <string name="scan_qr_error_text">Штрих код не действителен!</string>
+    <string name="common_cancel">Отменить</string>
+    <string name="common_repeat">Повторить</string>
+    <string name="scan_qr_success_text">Система успешно отметила ребенка в детской группе \n (%1$s)</string>
+    <string name="common_okay">ok</string>
+    <string name="login_send_code">Получить СМС код</string>
+    <string name="exit">Выход</string>
+    <string name="select_child">Выберите ребёнка</string>
+    <string name="login">Вход</string>
+    <string name="enter_sms_code_for_login">Введите ваш код из СМС для входа.</string>
+    <string name="enter_your_iin">Введите ваш ИИН</string>
+    <string name="scan_code">Сканировать код</string>
+
+</resources>

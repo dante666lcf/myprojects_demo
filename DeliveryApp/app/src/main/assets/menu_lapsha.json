@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Лапша Пад Тай",
+      "description": "Традиционная тайская лапша с креветками, кальмарами, зеленым луком, яйцом и тофу в устричном соусе \"Чили\" с рубленным арахисом",
+      "url_img": "http://yakitoriya.kz/i/order_b_1789.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2100,
+      "type_in_menu": "Лапша"
+    },
+    {
+      "title": "Лапша с креветкой",
+      "description": "тонкая ячная лапша с мояси в соево-устричном соусе",
+      "url_img": "http://yakitoriya.kz/i/order_b_1889.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1900,
+      "type_in_menu": "Лапша"
+    },
+    {
+      "title": "Удон с морепродуктами ",
+      "description": "широкая пшеничная лапша с бэйби-осьминожками, кальмаром, тигровой креветкой и шпинатом в устричном чили соусе",
+      "url_img": "http://yakitoriya.kz/i/order_b_1891.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2500,
+      "type_in_menu": "Лапша"
+    }
+  ]
+}

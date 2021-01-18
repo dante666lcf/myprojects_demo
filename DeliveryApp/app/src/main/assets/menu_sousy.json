@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Васаби",
+      "description": "Васаби - 10 гр",
+      "url_img": "http://yakitoriya.kz/i/order_b_703.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 200,
+      "type_in_menu": "Соусы"
+    },
+    {
+      "title": "Соевый соус",
+      "description": "Соевый соус-30 гр",
+      "url_img": "http://yakitoriya.kz/i/order_b_704.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 200,
+      "type_in_menu": "Соусы"
+    },
+    {
+      "title": "Соус «Терияки»",
+      "description": "Соус «Терияки» - 40 гр",
+      "url_img": "http://yakitoriya.kz/i/order_b_762.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 200,
+      "type_in_menu": "Соусы"
+    }
+  ]
+}

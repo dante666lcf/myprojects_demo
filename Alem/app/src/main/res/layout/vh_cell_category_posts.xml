@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/vh_cell_category_post_imageview_logo"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/profile_placeholder_logo" />
+
+    <TextView
+        android:id="@+id/vh_cell_category_post_textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vh_cell_category_post_ll_bottom"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="16dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Топ-100 сердцеевдов Азии Димаш Кудайберген..." />
+
+    <LinearLayout
+        android:id="@+id/vh_cell_category_post_ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/ic_location_full_bg_color" />
+
+        <TextView
+            android:id="@+id/vh_cell_category_post_bottom_textview_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Астана" />
+
+        <TextView
+            android:id="@+id/vh_cell_category_post_bottom_textview_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackgroundDark"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            tools:text="Бизнес" />
+
+        <TextView
+            android:id="@+id/vh_cell_category_post_bottom_textview_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            tools:text="01.02.0003" />
+
+    </LinearLayout>
+
+</RelativeLayout>

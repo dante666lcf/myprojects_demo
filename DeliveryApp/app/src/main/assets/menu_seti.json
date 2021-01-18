@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Темпура-сет 21шт",
+      "description": "Кайсэн маки агэ, Росу драгон маки, Персона Грата, Пинк сякэ рору",
+      "url_img": "http://yakitoriya.kz/i/order_b_1850.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 8000,
+      "type_in_menu": "Сеты"
+    },
+    {
+      "title": "Фирменный сет 74 шт",
+      "description": "Тайсё эби рору, Гейша рору, Сякэ калифорния , Якитория, Унаги Филадельфия, Тайга рору, О рицу Маки, «Драгон» рору, Парадайз рору, Ред драгон, Киото рору",
+      "url_img": "http://yakitoriya.kz/i/order_b_1855.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 24000,
+      "type_in_menu": "Сеты"
+    },
+    {
+      "title": "Королевский сет 80 шт.",
+      "description": "Орицу маки (х2) Калифорния (х2) Ред драгон (х2) Киото рору (х2) Филадельфия (х2) Тайга рору (х2)",
+      "url_img": "http://yakitoriya.kz/i/order_b_1858.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 27000,
+      "type_in_menu": "Сеты"
+    }
+  ]
+}

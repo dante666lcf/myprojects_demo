@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Магуро",
+      "description": "тунец",
+      "url_img": "http://yakitoriya.kz/i/order_b_242.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1500,
+      "type_in_menu": "Сашими"
+    },
+    {
+      "title": "Сякэ",
+      "description": "лосось",
+      "url_img": "http://yakitoriya.kz/i/order_b_243.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1500,
+      "type_in_menu": "Сашими"
+    },
+    {
+      "title": "Унаги",
+      "description": "копченный угорь",
+      "url_img": "http://yakitoriya.kz/i/order_b_246.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1700,
+      "type_in_menu": "Сашими"
+    }
+  ]
+}

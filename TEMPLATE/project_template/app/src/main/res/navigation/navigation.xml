@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="ru.tusur.study.mobile.mvp.fragments.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <!--        <action-->
+        <!--            android:id="@+id/action_loginFragment2_to_chooseProfileFragment2"-->
+        <!--            app:destination="@id/chooseProfileFragment2" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_loginFragment2_to_welcomeFragment2"-->
+        <!--            app:destination="@id/welcomeFragment2" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_loginFragment2_to_registrationFragment2"-->
+        <!--            app:destination="@id/registrationFragment2"-->
+        <!--            app:enterAnim="@anim/enter_down_to_up"-->
+        <!--            app:exitAnim="@anim/exit_down_to_up"-->
+        <!--            app:popEnterAnim="@anim/enter_up_to_down"-->
+        <!--            app:popExitAnim="@anim/exit_up_to_down" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_loginFragment2_to_codeConfirmFragment2"-->
+        <!--            app:destination="@id/codeConfirmFragment2"-->
+        <!--            app:enterAnim="@anim/enter_right_to_left"-->
+        <!--            app:exitAnim="@anim/exit_right_to_left"-->
+        <!--            app:popEnterAnim="@anim/enter_left_to_right"-->
+        <!--            app:popExitAnim="@anim/exit_left_to_right" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_loginFragment2_to_resetPasswordFragment2"-->
+        <!--            app:destination="@id/resetPasswordFragment2"-->
+        <!--            app:enterAnim="@anim/enter_right_to_left"-->
+        <!--            app:exitAnim="@anim/exit_right_to_left"-->
+        <!--            app:popEnterAnim="@anim/enter_left_to_right"-->
+        <!--            app:popExitAnim="@anim/exit_left_to_right" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="ru.tusur.study.mobile.mvp.fragments.main_menu.MainMenuFragment"
+        android:label="MainMenuFragment"
+        tools:layout="@layout/fragment_main_menu">
+
+    </fragment>
+</navigation>

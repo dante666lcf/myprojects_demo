@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DeliveryApp</string>
+    <string name="text_menu">Меню</string>
+    <string name="text_favorites">Избранное</string>
+    <string name="text_aksiya">Акции</string>
+    <string name="text_news">Новости</string>
+    <string name="text_description">Описание</string>
+    <string name="text_price">Цена</string>
+    <string name="price_with_kzt">%1$s тг</string>
+    <string name="text_add_to_basket">Добавить в корзину</string>
+    <string name="text_back_to_menu">Вернуться в главное меню</string>
+    <string name="text_favorites_place_holder">На данный момент \n у Вас избранных нет :(</string>
+    <string name="text_add_to_favorites">Добавить в избранное</string>
+    <string name="text_basket">Корзина</string>
+    <string name="create_order">Отправить заказ</string>
+</resources>

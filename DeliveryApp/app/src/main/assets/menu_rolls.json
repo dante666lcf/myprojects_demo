@@ -1,0 +1,49 @@
+{
+  "eda_list": [
+    {
+      "title": "Унаги Филадельфия",
+      "description": "копченый угорь, сливочный сыр, спайси лосось \"Бури\", авокадо, масаго, тамаго (6 шт.)",
+      "url_img": "http://yakitoriya.kz/i/order_b_1774.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2100,
+      "type_in_menu": "Роллы"
+    },
+    {
+      "title": "Зеленый дракон",
+      "description": "Филе лосося, \"Спайси\" соус , сливочный сыр ,копченый кальмар и оурец в авокадо",
+      "url_img": "http://yakitoriya.kz/i/order_b_1863.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2000,
+      "type_in_menu": "Роллы"
+    },
+    {
+      "title": "Ролл лосось -карамель",
+      "description": "карамелизированный лосось с морской солбю, сливочным сыром, копченым угрем с соусом \"Спайси\", масаго и тамаго",
+      "url_img": "http://yakitoriya.kz/i/order_b_1865.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2200,
+      "type_in_menu": "Роллы"
+    },
+    {
+      "title": "Калифорния",
+      "description": "мясо краба, огурец, авокадо, тобико (6 шт.)",
+      "url_img": "http://yakitoriya.kz/i/order_b_328.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2500,
+      "type_in_menu": "Роллы"
+    },
+    {
+      "title": "О рицу маки",
+      "description": "лосось, красная икра, сливочный сыр (6 шт.)",
+      "url_img": "http://yakitoriya.kz/i/order_b_249.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2700,
+      "type_in_menu": "Роллы"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways|snap" />
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:padding="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <View
+                android:id="@+id/viewVerticalDividerYellow"
+                android:layout_width="4dp"
+                android:layout_height="64dp"
+                android:background="@color/colorVerticalDividerYellow"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvDefTextEnterIIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/login_enter_your_iin_for_login"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/viewVerticalDividerYellow"
+                app:layout_constraintLeft_toRightOf="@+id/viewVerticalDividerYellow"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/viewVerticalDividerYellow" />
+
+            <EditText
+                android:id="@+id/edEnterIIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/login_et_enter_iin"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:maxLength="12"
+                android:paddingBottom="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorEditTextHint"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/viewVerticalDividerYellow"
+                tools:text="9610230101010" />
+
+            <TextView
+                android:id="@+id/tvDefTextEnterSmsCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/login_enter_your_sms_code_for_login"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edEnterIIN" />
+
+            <EditText
+                android:id="@+id/edEnterSmsCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/login_et_enter_smscode"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingBottom="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorEditTextHint"
+                android:textSize="14sp"
+                android:maxLength="4"
+                app:layout_constraintTop_toBottomOf="@+id/tvDefTextEnterSmsCode"
+                tools:text="1234" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/login_def_info_sms_code"
+                android:textColor="@color/colorEditTextHint"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edEnterSmsCode" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    <!--</ScrollView>-->
+
+    <View
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_height="0.9dp"
+        android:background="@color/colorLineBottomNavigationView" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/mBtnLoginEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="@string/login_enter_text"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:cornerRadius="50dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/mBtnSendCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="@string/login_send_code"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

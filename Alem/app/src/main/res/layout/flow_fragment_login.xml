@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundDark"
+    android:paddingLeft="32dp"
+    android:paddingTop="24dp"
+    android:paddingRight="32dp"
+    android:paddingBottom="24dp">
+
+    <RelativeLayout
+        android:id="@+id/fragment_login_rl_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fragment_login_mbtn_login">
+
+        <ImageView
+            android:id="@+id/fragment_login_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/logo_alem_time" />
+
+        <EditText
+            android:id="@+id/fragment_login_et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_login_iv_logo"
+            android:ellipsize="end"
+            android:hint="@string/enter_username"
+            android:maxLines="1"
+            android:paddingBottom="16dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="18sp"
+            tools:text="Alem Time" />
+
+        <EditText
+            android:id="@+id/fragment_login_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_login_et_username"
+            android:ellipsize="end"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingBottom="16dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="18sp"
+            tools:text="qwerty123" />
+
+        <TextView
+            android:id="@+id/fragment_login_tv_zabil_parol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_login_et_password"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="14sp"
+            android:text="@string/login_zabil_parol"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/fragment_login_tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_below="@+id/fragment_login_tv_zabil_parol"
+            android:layout_alignParentEnd="true"
+            android:text="@string/login_sign_up"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/fragment_login_mbtn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        app:cornerRadius="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "eda_list": [
+    {
+      "title": "Фреш ананасовый",
+      "description": "Фреш ананас",
+      "url_img": "http://yakitoriya.kz/i/order_b_1701.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 3000,
+      "type_in_menu": "Напитки"
+    },
+    {
+      "title": "Фреш апельсиновый",
+      "description": "Фреш апельсин 500 мл",
+      "url_img": "http://yakitoriya.kz/i/order_b_1702.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2500,
+      "type_in_menu": "Напитки"
+    },
+    {
+      "title": "Грацио Вишня 1L",
+      "description": "Грацио Вишня 1L",
+      "url_img": "http://yakitoriya.kz/i/order_b_1843.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1000,
+      "type_in_menu": "Напитки"
+    },
+    {
+      "title": "Schweppes",
+      "description": "Schweppes",
+      "url_img": "http://yakitoriya.kz/i/order_m_1709.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 5000,
+      "type_in_menu": "Напитки"
+    }
+  ]
+}

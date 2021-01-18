@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/clCameraItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.Guideline
+                android:id="@+id/lineStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/lineEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+
+            <FrameLayout
+                android:id="@+id/flCameraFrame"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <kz.app.bender.views.PointsOverlayView
+                android:id="@+id/pointsOverlayView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/focusViewRelative"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="36dp"
+                app:layout_constraintDimensionRatio="W, 1:1"
+                app:layout_constraintEnd_toStartOf="@id/lineEnd"
+                app:layout_constraintStart_toEndOf="@id/lineStart"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <View
+                    android:id="@+id/focusView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ProgressBar
+                    android:id="@+id/progressBarFocusView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/colorScanBackground"
+                app:layout_constraintBottom_toTopOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/colorScanBackground"
+                app:layout_constraintBottom_toBottomOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toStartOf="@id/focusViewRelative"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/focusViewRelative" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/colorScanBackground"
+                app:layout_constraintBottom_toBottomOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/focusViewRelative"
+                app:layout_constraintTop_toTopOf="@id/focusViewRelative" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/colorScanBackground"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/focusViewRelative" />
+
+            <!--region white square around camera space-->
+            <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:layout_width="@dimen/scan_focus_corner_background_size"-->
+            <!--android:layout_height="@dimen/scan_focus_corner_background_size"-->
+            <!--app:layout_constraintStart_toStartOf="@id/focusView"-->
+            <!--app:layout_constraintTop_toTopOf="@id/focusView"-->
+            <!--app:srcCompat="@drawable/scan_frame_background_top_left" />-->
+
+            <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:layout_width="@dimen/scan_focus_corner_background_size"-->
+            <!--android:layout_height="@dimen/scan_focus_corner_background_size"-->
+            <!--app:layout_constraintEnd_toEndOf="@id/focusView"-->
+            <!--app:layout_constraintTop_toTopOf="@id/focusView"-->
+            <!--app:srcCompat="@drawable/scan_frame_background_top_right" />-->
+
+            <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:layout_width="@dimen/scan_focus_corner_background_size"-->
+            <!--android:layout_height="@dimen/scan_focus_corner_background_size"-->
+            <!--app:layout_constraintBottom_toBottomOf="@id/focusView"-->
+            <!--app:layout_constraintStart_toStartOf="@id/focusView"-->
+            <!--app:srcCompat="@drawable/scan_frame_background_bottom_left" />-->
+
+            <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:layout_width="@dimen/scan_focus_corner_background_size"-->
+            <!--android:layout_height="@dimen/scan_focus_corner_background_size"-->
+            <!--app:layout_constraintBottom_toBottomOf="@id/focusView"-->
+            <!--app:layout_constraintEnd_toEndOf="@id/focusView"-->
+            <!--app:srcCompat="@drawable/scan_frame_background_bottom_right" />-->
+
+            <!--endregion-->
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:layout_constraintBottom_toTopOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toStartOf="@id/focusViewRelative"
+                app:layout_constraintStart_toStartOf="@id/focusViewRelative"
+                app:layout_constraintTop_toTopOf="@id/focusViewRelative"
+                app:srcCompat="@drawable/scan_frame_top_left" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:layout_constraintBottom_toTopOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toEndOf="@id/focusViewRelative"
+                app:layout_constraintStart_toEndOf="@id/focusViewRelative"
+                app:layout_constraintTop_toTopOf="@id/focusViewRelative"
+                app:srcCompat="@drawable/scan_frame_top_right" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:layout_constraintBottom_toBottomOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toStartOf="@id/focusViewRelative"
+                app:layout_constraintStart_toStartOf="@id/focusViewRelative"
+                app:layout_constraintTop_toBottomOf="@id/focusViewRelative"
+                app:srcCompat="@drawable/scan_frame_bottom_left" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:layout_constraintBottom_toBottomOf="@id/focusViewRelative"
+                app:layout_constraintEnd_toEndOf="@id/focusViewRelative"
+                app:layout_constraintStart_toEndOf="@id/focusViewRelative"
+                app:layout_constraintTop_toBottomOf="@id/focusViewRelative"
+                app:srcCompat="@drawable/scan_frame_bottom_right" />
+
+            <TextView
+                android:id="@+id/tvChildrenFIO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:padding="4dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/focusViewRelative"
+                app:layout_constraintTop_toBottomOf="@+id/focusViewRelative"
+                tools:text="Азмуханбетова Адель  Данияровна" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="0dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="24dp"
+                android:text="@string/scan_qr_info_bottom"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/focusViewRelative" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

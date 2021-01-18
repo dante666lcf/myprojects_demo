@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Paulaner Hefe-weissbier",
+      "description": "Paulaner Hefe-weissbier Naturtub - 500 мл",
+      "url_img": "http://yakitoriya.kz/i/order_b_1668.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1700,
+      "type_in_menu": "Пиво"
+    },
+    {
+      "title": "Hite",
+      "description": "Hite 330ml",
+      "url_img": "http://yakitoriya.kz/i/order_b_1909.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1400,
+      "type_in_menu": "Пиво"
+    },
+    {
+      "title": "Буси светлое нефильтр",
+      "description": "1L",
+      "url_img": "http://yakitoriya.kz/i/order_b_512.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1300,
+      "type_in_menu": "Пиво"
+    }
+  ]
+}

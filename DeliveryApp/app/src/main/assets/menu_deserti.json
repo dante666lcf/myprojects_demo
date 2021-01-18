@@ -1,0 +1,49 @@
+{
+  "eda_list": [
+    {
+      "title": "Тирамису Italiano",
+      "description": "крем из сыра маскарпоне с бисквитом савоярди пропитанным кофе",
+      "url_img": "http://yakitoriya.kz/i/order_b_1790.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1600,
+      "type_in_menu": "Десерт"
+    },
+    {
+      "title": "Брауни",
+      "description": "теплый торт из темного шоколада с грецким орехом, с обжаренной карамели вишни и шариком ванильного мароженого",
+      "url_img": "http://yakitoriya.kz/i/order_b_1894.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1400,
+      "type_in_menu": "Десерт"
+    },
+    {
+      "title": "Рэд кейк",
+      "description": "хрустящие коржи с фундуком, прослойкой из нежного крема с вареной сгущенкой и коньяком, покрытые глазурью из белого шоколада",
+      "url_img": "http://yakitoriya.kz/i/order_b_1895.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1500,
+      "type_in_menu": "Десерт"
+    },
+    {
+      "title": "Мидзугаси матсури",
+      "description": "ассорти из свежих фруктов",
+      "url_img": "http://yakitoriya.kz/i/order_b_701.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1800,
+      "type_in_menu": "Десерт"
+    },
+    {
+      "title": "Фруцу рору",
+      "description": "ролл с фруктами и заварным кремом",
+      "url_img": "http://yakitoriya.kz/i/order_b_783.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1400,
+      "type_in_menu": "Десерт"
+    }
+  ]
+}

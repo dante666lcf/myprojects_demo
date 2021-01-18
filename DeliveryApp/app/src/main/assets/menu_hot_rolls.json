@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Персона Грата",
+      "description": "угорь, сливочный сыр, авокадо, масаго, кунжут, темпура, соус \"Спайси\". Сервируется цитрусовым соусом \"Спайси\" (4 шт.) К заказу прилагаются соуса: спайси - 1 шт",
+      "url_img": "http://yakitoriya.kz/i/order_b_809.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2100,
+      "type_in_menu": "ГОРЯЧИЕ РОЛЛЫ"
+    },
+    {
+      "title": "Умаки",
+      "description": "омлет с угрем (3 шт.)",
+      "url_img": "http://yakitoriya.kz/i/order_b_1355.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1450,
+      "type_in_menu": "ГОРЯЧИЕ РОЛЛЫ"
+    },
+    {
+      "title": "Сякэ терияки рору",
+      "description": "лосось, снежный краб, авокадо, огурец, соус \"Терияки\"(6 шт.)",
+      "url_img": "http://yakitoriya.kz/i/order_b_298.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2000,
+      "type_in_menu": "ГОРЯЧИЕ РОЛЛЫ"
+    }
+  ]
+}

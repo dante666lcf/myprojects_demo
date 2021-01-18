@@ -1,0 +1,49 @@
+{
+  "eda_list": [
+    {
+      "title": "Гюнику кирими",
+      "description": "говяжья вырезка-гриль с картофелем фри",
+      "url_img": "http://yakitoriya.kz/i/order_b_390.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2700,
+      "type_in_menu": "Горячее"
+    },
+    {
+      "title": "Ролл с мясом цыпленка",
+      "description": "в тонком тесте, с аджикой, капустой, томатами и огурцом. Сервируется со сливочно-чесночным соусом",
+      "url_img": "http://yakitoriya.kz/i/order_b_1885.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1900,
+      "type_in_menu": "Горячее"
+    },
+    {
+      "title": "Кесадилья с курицей",
+      "description": "тортилья с мексиканским томатным соусом, кукурузой, сладким перцем и сыром «Чеддер». Сервируется гуакамоле из авокадо, сметаной и томатной сальсой",
+      "url_img": "http://yakitoriya.kz/i/order_b_801.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2000,
+      "type_in_menu": "Горячее"
+    },
+    {
+      "title": "Гютан соусу бабэкю",
+      "description": "телячий язык, цукини, вешенки, лук, запеченные под соусом \"Барбекю\"",
+      "url_img": "http://yakitoriya.kz/i/order_b_381.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2000,
+      "type_in_menu": "Горячее"
+    },
+    {
+      "title": "Сита тидзу яки",
+      "description": "запеченный телячий язык, овощи и рис, под соусом из голубого сыра",
+      "url_img": "http://yakitoriya.kz/i/order_b_387.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1800,
+      "type_in_menu": "Горячее"
+    }
+  ]
+}

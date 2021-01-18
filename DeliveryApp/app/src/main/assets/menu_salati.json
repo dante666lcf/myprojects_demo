@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Эби абогадо сарада",
+      "description": "креветки, авокадо, шампиньоны, красная икра",
+      "url_img": "http://yakitoriya.kz/i/order_b_339.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1800,
+      "type_in_menu": "Салаты"
+    },
+    {
+      "title": "Салат из битых огурцов",
+      "description": "с кинзой и орехами кешью, в пикантном соусе из черного уксуса",
+      "url_img": "http://yakitoriya.kz/i/order_b_1777.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1800,
+      "type_in_menu": "Салаты"
+    },
+    {
+      "title": "Кайсо",
+      "description": "водоросли, тосака, сельдерей, лимон, ореховый соус",
+      "url_img": "http://yakitoriya.kz/i/order_b_332.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1400,
+      "type_in_menu": "Салаты"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "menu_list": [
+    {
+      "name": "Суши",
+      "type": "menu_susi",
+      "img_url": "http://yakitoriya.kz/i/order_m_176.jpg"
+    },
+    {
+      "name": "Сашими",
+      "type": "menu_sashimi",
+      "img_url": "http://yakitoriya.kz/i/order_m_243.jpg"
+    },
+    {
+      "name": "Роллы",
+      "type": "menu_rolls",
+      "img_url": "http://yakitoriya.kz/i/order_b_1774.jpg"
+    },
+    {
+      "name": "Горячие роллы",
+      "type": "menu_hot_rolls",
+      "img_url": "http://yakitoriya.kz/i/order_m_809.jpg"
+    },
+    {
+      "name": "Сеты",
+      "type": "menu_seti",
+      "img_url": "http://yakitoriya.kz/i/order_m_1855.jpg"
+    },
+    {
+      "name": "Салаты",
+      "type": "menu_salati",
+      "img_url": "http://yakitoriya.kz/i/order_m_339.jpg"
+    },
+    {
+      "name": "Супы",
+      "type": "menu_supi",
+      "img_url": "http://yakitoriya.kz/i/order_m_355.jpg"
+    },
+    {
+      "name": "Пицца и Бургеры",
+      "type": "menu_pizza_and_burgers",
+      "img_url": "http://yakitoriya.kz/i/order_m_1381.jpg"
+    },
+    {
+      "name": "Горячее",
+      "type": "menu_goryachee",
+      "img_url": "http://yakitoriya.kz/i/order_m_1898.jpg"
+    },
+    {
+      "name": "Лапша",
+      "type": "menu_lapsha",
+      "img_url": "http://yakitoriya.kz/i/order_m_1789.jpg"
+    },
+    {
+      "name": "Десерты",
+      "type": "menu_deserti",
+      "img_url": "http://yakitoriya.kz/i/order_m_1791.jpg"
+    },
+    {
+      "name": "Напитки",
+      "type": "menu_napitki",
+      "img_url": "http://yakitoriya.kz/i/order_m_1701.jpg"
+    },
+    {
+      "name": "Пиво",
+      "type": "menu_pivo",
+      "img_url": "http://yakitoriya.kz/i/order_m_516.jpg"
+    },
+    {
+      "name": "Соусы",
+      "type": "menu_sousy",
+      "img_url": "http://yakitoriya.kz/i/order_m_702.jpg"
+    }
+  ]
+}

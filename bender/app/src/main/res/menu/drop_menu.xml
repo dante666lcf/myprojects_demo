@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_drop_fio_parent_child"
+        android:title="Name Surename"
+        android:checked="true"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_drop_action_exit"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>

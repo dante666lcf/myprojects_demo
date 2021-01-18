@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Абогадо",
+      "description": "авокадо",
+      "url_img": "http://yakitoriya.kz/i/order_b_176.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 350,
+      "type_in_menu": "Суши"
+    },
+    {
+      "title": "Сякэ",
+      "description": "лосось",
+      "url_img": "http://yakitoriya.kz/i/order_b_220.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 500,
+      "type_in_menu": "Суши"
+    },
+    {
+      "title": "Эби",
+      "description": "креветка",
+      "url_img": "http://yakitoriya.kz/i/order_b_229.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 500,
+      "type_in_menu": "Суши"
+    }
+  ]
+}

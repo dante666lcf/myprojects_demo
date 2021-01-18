@@ -1,0 +1,31 @@
+{
+  "eda_list": [
+    {
+      "title": "Мисосиру",
+      "description": "суп из соевых бобов",
+      "url_img": "http://yakitoriya.kz/i/order_b_356.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 600,
+      "type_in_menu": "Супы"
+    },
+    {
+      "title": "Том ям кунг",
+      "description": "острый суп на кокосовом молоке с тигровыми креветками, кальмарами, галангалом, грибами и помидорами. Сервируется с паровым рисом",
+      "url_img": "http://yakitoriya.kz/i/order_b_1875.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 2400,
+      "type_in_menu": "Супы"
+    },
+    {
+      "title": "Кон кани куриму супу",
+      "description": "крем-суп из сладкой кукурузы, с мясом краба",
+      "url_img": "http://yakitoriya.kz/i/order_b_355.jpg",
+      "is_new": false,
+      "is_favorite": false,
+      "price": 1700,
+      "type_in_menu": "Супы"
+    }
+  ]
+}

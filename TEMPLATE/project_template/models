@@ -1,0 +1,160 @@
+Types:
+"" - String
+123 - Integer
+0.12 - Double
+[] - Array
+{} - Object
+
+
+
+Личные Данные: (User Profile) or (User)
+{
+	"fullname": "Мусин Муса Нурланович",
+	"status": "Студен заочная",
+	"birthday": "23.10.1996",
+	"email": "al152mmn@study.tusur.ru",
+	"post_email_address": "",
+	"post_email_address_international": "",
+	"group": "з435П7-1",
+	"course": 5,
+	"code_option": 25,
+	"direction_preparation": "09.03.01",
+	"department": "ТУСУР, АСУ",
+	"academic_plan": "Общий",
+	"student_record_book": "№10509/15"
+}
+
+Платежи: (Payments)
+[
+	{
+		"id": 1,
+		"date": "21.08.2015",
+		"appointment": "Обучение 1 семестр",
+		"amount": 22000,
+		"status_payment": true
+	},
+	{
+		...
+	},
+	{
+		...
+	},
+...
+]
+
+
+Мой график: (My Schedule)
+[
+	{
+		"id": 1,
+		"start_date": "",
+		"end_date": "",
+		"title": "",
+		"description": "",
+		"tag": ""
+	},
+	{
+		"id": 2,
+		"start_date": "",
+		"end_date": "",
+		"title": "",
+		"description": "",
+		"tag": ""
+	}
+]
+
+Студенческий График(Личный): (Student's Schedule)
+[
+	{
+		"id": 1,
+		"semester": 1,
+		"start_date":"01.02.2020",
+		"end_date": "07.02.2020",
+		"discipline": "Математика",
+		"control": "КР1",
+		"rating": "N"
+	},
+	{
+		"id": 2,
+		"semester": 1,
+		"start_date":"01.02.2020",
+		"end_date": "07.02.2020",
+		"discipline": "Математика",
+		"control": "КР1",
+		"rating": "N"
+	},
+	...
+]
+
+Учебный(Студенческий) План: (Study Plan)
+[
+	{
+		"id": 1,
+		"title": "",
+		"link_pdf_additional": "",
+		"link_pdf_methodical": "",
+		"subjects_statuses": [
+			{
+				"id": 1,
+				"title": ""
+				"discipline": "Математика",
+				"control": "КР1",
+				"rating": "зачёт",
+				"variant": 3,
+				"type": "online",
+				"date": "01.02.0003"
+			},
+			{
+				"id": 2,
+				"title": ""
+				"discipline": "Математика",
+				"control": "КР2",
+				"rating": "зачёт",
+				"variant": 3,
+				"type": "online",
+				"date": "01.02.0003"
+			}
+			...
+		]
+
+	}
+] 
+
+Новости: (News)
+[
+	{
+		"id": 1,
+		"title": "",
+		"description": "",
+		"date": "11 марта 2020",
+		"category": "Новости"
+	},
+	{
+		"id": 2,
+		"title": "",
+		"description": "",
+		"date": "21 марта 2020",
+		"category": "Новости"
+	}
+]
+
+Почта: (Email)
+[
+	ВОЗМОЖНО, НО НЕ ФАКТ.
+]
+
+Вход: (AuthLogin Body For Request)
+{
+	"login": "ab123cde",
+	"password": "123456789"
+}
+
+Вход: (AuthLogin Response)
+{
+	"id": 1,
+	"userId": 123456,
+	"token": "wertyuio'l;kl;jhgf5656uio2",
+	"refresh_token": "wertyuio'l;kl;jhgf5656uio2",
+	"start_date": "01.02.0003",
+	"end_date": "01.02.0003"
+}
